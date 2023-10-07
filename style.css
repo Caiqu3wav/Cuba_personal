@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url(img/redimIMG-20231005-WA0006.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    width: 1364px;
+    height: 10vh;
+    background-color: rgb(45, 45, 128, .4);
+}
+
+.navbar h2{
+    margin: 10px 0 0 7px;
+}
+
+.nav_logo{
+    margin-left: 380px;
+    margin-bottom: 50px;
+}
+
+
+
+
