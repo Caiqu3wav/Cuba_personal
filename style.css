@@ -4,27 +4,81 @@
 }
 
 main{
-    background-image: url(img/redimIMG-20231005-WA0006.jpg);
-    height: 700px;
+    background-image: url(img/IMG-20231005-WA0006~3.jpg);
+   height: 646px;
+    background-size: 1404px 650px;
     background-repeat: no-repeat;
-    background-size: cover;
 }
+
+
 
 .navbar{
     display: flex;
-    width: 1364px;
-    height: 10vh;
-    background-color: rgb(45, 45, 128, .4);
+    width: 1349px;
+    height: 100px;
+    background-color: rgba(27, 27, 46, 0.3);
 }
 
-.navbar h2{
-    margin: 10px 0 0 7px;
+.nav_contacts{
+    margin-left: 10px;
+}
+
+.nav_number{
+    margin-left: 6px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+    top: 5px;
+    color: var(--letter-color, white);
+}
+
+.nav_ig{
+margin-left: 6px;
+margin-top: 18px;
+color: var(--letter-color, white);
+font-size: 20px;
+position: relative;
+top: 14px;
+text-decoration: none;
+}
+
+.social_media_descriptions{
+    display: block;
+    
 }
 
 .nav_logo{
-    margin-left: 380px;
-    margin-bottom: 50px;
+    margin-left: 370px;
+    position: relative;
+    bottom: 20px;
+    
 }
+
+.nav_navigations{
+    float: right;
+    list-style: none;
+    margin-left: 150px;
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.nav_navigations a{
+    margin-right: 34px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_navigations a:hover{
+    opacity: 0.5;
+    transition: 0.7s;
+    text-decoration: underline;
+}
+
+
 
 
 
