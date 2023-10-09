@@ -4,9 +4,9 @@
 }
 
 main{
-    background-image: url(img/IMG-20231005-WA0006~3.jpg);
+    background-image: url(img/InShot_20231009_184420114.jpg);
    height: 646px;
-    background-size: 1404px 650px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -52,6 +52,7 @@ text-decoration: none;
 .nav_logo{
     margin-left: 370px;
     position: relative;
+    right: 25px;
     bottom: 20px;
     
 }
@@ -77,6 +78,79 @@ text-decoration: none;
     transition: 0.7s;
     text-decoration: underline;
 }
+
+.about_container{
+    height: 600px;
+    background-image: url(img/InShot_20231008_194830560~2.jpg);
+    background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 820px;
+    left: 20px;
+    width: 450px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+#about_h_one{
+    position: relative;
+    top: 220px;
+    left: 46px;
+    color: rgb(34, 34, 180);
+    font-size: 27px;
+}
+
+#hr_about_one{
+    position: relative;
+    top: 225px;
+    border: 2px solid red;
+    width: 420px;
+    left: 30px;
+}
+
+
+#about_p_one{
+    position: relative;
+    left: 30px;
+    top: 230px;
+    color: aliceblue;
+}
+
+.overlay_two{
+    position: absolute;
+    top: 820px;
+    left: 900px;
+    width: 450px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+#about_h_two{
+    position: relative;
+    top: 80px;
+    left: 1000px;
+    color: rgb(34, 34, 180);
+}
+
+#hr_about_two{
+    position: relative;
+    top: 80px;
+    border: 2px solid red;
+    width: 420px;
+    left: 910px;
+}
+
+#about_p_two{
+    position: relative;
+    left: 920px;
+    top: 85px;
+    color: aliceblue;
+}
+
+
 
 
 
