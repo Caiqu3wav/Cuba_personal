@@ -22,7 +22,7 @@
 }
 
 .cobp_mantra{
-    position: absolute;
+    position: relative;
     left: 480px;
 }
 #cobp_one{
@@ -37,6 +37,7 @@
 }
 #hr_first{
     border: 1px solid red;
+    width: 380px;
 }
 #mantra{
 margin-left: 6px;
@@ -50,8 +51,8 @@ font-family: 'Pixelify Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
 .overlay_first{
-    position: absolute;
-    top: 215px;
+    position: relative;
+    top: 70px;
     left: 20px;
     width: 450px;
     height: 140px;
@@ -61,18 +62,18 @@ font-family: 'Poppins', sans-serif;
 #hr_first_text_one{
 width: 300px;
 position: relative;
-top: 140px;
+bottom: 40px;
 left: 70px;
 }
 #hr_two_first_text_one_{
 width: 300px;
 position: relative;
-top: 160px;
+bottom: 26px;
 left: 70px;
 }
 .first_text_one{
     position: relative;
-    top: 150px;
+    bottom: 30px;
     left: 80px;
     color: var(--cor-secundaria);
     font-family: 'Aref Ruqaa Ink', serif;
@@ -94,18 +95,18 @@ left: 70px;
 .hr_three_first_text_two{
     width: 300px;
 position: relative;
-top: 330px;
+top: 135px;
 left: 70px;
 }
 .hr_four_first_text_two{
     width: 300px;
     position: relative;
-    top: 350px;
+    top: 150px;
     left: 70px;
 }
 .first_text_two{
     position: relative;
-    top: 340px;
+    top: 140px;
     left: 60px;
     color: var(--cor-secundaria);
     font-family: 'Aref Ruqaa Ink', serif;
@@ -126,19 +127,19 @@ left: 70px;
 }
 .hr_five_first_text_two{
     width: 300px;
-    position: relative;
-   bottom: 10px;
+position: relative;
+bottom:205px;
     left: 940px;
 }
 .hr_six_first_text_two{
     width: 300px;
-    position: relative;
-    top: 25px;
+position: relative;
+bottom: 162px;
     left: 940px;
 }
 .first_text_three{
     position: relative;
-    top: 5px;
+    bottom: 185px;
     left: 900px;
     color: var(--cor-secundaria);
     font-family: 'Aref Ruqaa Ink', serif;
@@ -160,18 +161,18 @@ left: 70px;
 .hr_seven_first_text_two{
     width: 300px;
     position: relative;
-    top: 195px;
+    bottom: 5px;
     left: 940px;
 }
 .hr_eight_first_text_two{
     width: 300px;
     position: relative;
-    top:216px;
+    top:16px;
     left: 940px;
 }
 .first_text_four{
     position: relative;
-    top: 205px;
+    top: 5px;
     left: 900px; 
     color: var(--cor-secundaria);
     font-family: 'Aref Ruqaa Ink', serif;
@@ -249,6 +250,64 @@ text-decoration: none;
     text-decoration: underline;
 }
 
+.about_cuba{
+    height: 630px;
+    background-image: linear-gradient(rgb(2, 2, 74), rgb(8, 11, 20));
+}
+.overlay_cuba{
+    position: relative;
+    border: 3px solid black;
+    top: 40px;
+    left: 250px;
+    width: 850px;
+    height: 470px;
+    background-color: rgba(255, 255, 255); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px;
+}
+.cuba_pic{
+    border: 8px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 320px;
+}
+.cuba_name_about_cuba{
+    color: blue;
+    left: 560px;
+    bottom: 190px;
+    position: relative;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.cref_about_cuba{
+    color: rgb(117, 117, 131);
+    position: relative;
+    left: 630px;
+    bottom: 186px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.text_about_cuba{
+    width: 780px;
+    position: relative;
+    left: 300px;
+    bottom: 180px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 .about_container{
     height: 600px;
     background-image: url(img/InShot_20231008_194830560~2.jpg);
@@ -256,8 +315,8 @@ text-decoration: none;
 }
 
 .overlay{
-    position: absolute;
-    top: 820px;
+    position: relative;
+    top: 165px;
     left: 20px;
     width: 450px;
     height: 240px;
@@ -267,7 +326,7 @@ text-decoration: none;
 
 #about_h_one{
     position: relative;
-    top: 220px;
+    bottom: 30px;
     left: 46px;
     color: rgb(34, 34, 180);
     font-size: 27px;
@@ -276,7 +335,7 @@ text-decoration: none;
 
 #hr_about_one{
     position: relative;
-    top: 225px;
+    bottom: 20px;
     border: 2px solid red;
     width: 420px;
     left: 30px;
@@ -286,13 +345,13 @@ text-decoration: none;
 #about_p_one{
     position: relative;
     left: 30px;
-    top: 230px;
+    bottom: 10px;
     color: aliceblue;
 }
 
 .overlay_two{
-    position: absolute;
-    top: 820px;
+    position: relative;
+    bottom: 220px;
     left: 900px;
     width: 450px;
     height: 240px;
@@ -301,14 +360,14 @@ text-decoration: none;
 }
 #about_h_two{
     position: relative;
-    top: 80px;
+    bottom: 420px;
     left: 1000px;
     color: rgb(34, 34, 180);
 }
 
 #hr_about_two{
     position: relative;
-    top: 80px;
+    bottom: 410px;
     border: 2px solid red;
     width: 420px;
     left: 910px;
@@ -317,7 +376,7 @@ text-decoration: none;
 #about_p_two{
     position: relative;
     left: 920px;
-    top: 85px;
+    bottom: 400px;
     color: aliceblue;
 }
 
