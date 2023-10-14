@@ -16,7 +16,7 @@
 
 .first{
     background-image: url(img/InShot_20231009_184420114.jpg);
-   height: 646px;
+   height: 785px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -183,6 +183,59 @@ bottom: 162px;
     font-family: 'Poppins', sans-serif;
 }
 
+.first_consultoria_online h2{
+color: blue;
+position: relative;
+top: 55px;
+left: 550px;
+font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#consultoria_price_s{
+    color: blue;
+    position: relative;
+    top: 55px;
+left: 640px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#consultoria_price{
+    color: rgb(38, 227, 95);
+    position: relative;
+    top: 60px;
+left: 620px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.first_consultoria_online button{
+    color: white;
+    background-color: blue;
+    position: relative;
+    top: 63px;
+left: 610px;
+width: 150px;
+height: 30px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+.first_consultoria_online button:hover{
+    background-color: rgb(38, 227, 95);
+}
+
 .navbar{
     display: flex;
     width: 1349px;
@@ -252,11 +305,11 @@ text-decoration: none;
 
 .about_cuba{
     height: 630px;
-    background-image: linear-gradient(rgb(2, 2, 74), rgb(8, 11, 20));
+    background-image: linear-gradient(rgb(20, 20, 130), rgb(7, 22, 74));
 }
 .overlay_cuba{
     position: relative;
-    border: 3px solid black;
+    border: 3px solid red;
     top: 40px;
     left: 250px;
     width: 850px;
@@ -310,7 +363,7 @@ text-decoration: none;
 
 .about_container{
     height: 600px;
-    background-image: url(img/InShot_20231008_194830560~2.jpg);
+    background-image: linear-gradient(rgb(7, 22, 74), black);
     background-size: cover;
 }
 
@@ -380,7 +433,11 @@ text-decoration: none;
     color: aliceblue;
 }
 
-
+.logo_cuba_about_bg{
+    position: absolute;
+    top: 1140px;
+    left: -70px;
+}
 
 
 
