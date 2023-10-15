@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 :root{
     --cor-primaria: white;
@@ -16,9 +19,16 @@
 
 .first{
     background-image: url(img/InShot_20231009_184420114.jpg);
-   height: 785px;
-    background-size: cover;
+   height: 825px;
+   background-size: cover;
+   background-position: center;
     background-repeat: no-repeat;
+}
+.connector{
+    height: 27px;
+    background: linear-gradient(to top, rgb(20, 20, 130), rgb(20, 20, 130), transparent);
+    position: relative;
+    top: 88px;
 }
 
 .cobp_mantra{
@@ -186,7 +196,7 @@ bottom: 162px;
 .first_consultoria_online h2{
 color: blue;
 position: relative;
-top: 55px;
+top: 85px;
 left: 550px;
 font-family: 'Aref Ruqaa Ink', serif;
     font-family: 'Bebas Neue', sans-serif;
@@ -198,7 +208,7 @@ font-family: 'Aref Ruqaa Ink', serif;
 #consultoria_price_s{
     color: blue;
     position: relative;
-    top: 55px;
+    top: 85px;
 left: 640px;
     font-family: 'Aref Ruqaa Ink', serif;
     font-family: 'Bebas Neue', sans-serif;
@@ -210,7 +220,7 @@ left: 640px;
 #consultoria_price{
     color: rgb(38, 227, 95);
     position: relative;
-    top: 60px;
+    top: 80px;
 left: 620px;
     font-family: 'Aref Ruqaa Ink', serif;
     font-family: 'Bebas Neue', sans-serif;
@@ -223,7 +233,7 @@ left: 620px;
     color: white;
     background-color: blue;
     position: relative;
-    top: 63px;
+    top: 83px;
 left: 610px;
 width: 150px;
 height: 30px;
@@ -234,6 +244,7 @@ transition: background-color 0.3s ease;
 }
 .first_consultoria_online button:hover{
     background-color: rgb(38, 227, 95);
+    color: black;
 }
 
 .navbar{
@@ -362,14 +373,14 @@ text-decoration: none;
 }
 
 .about_container{
-    height: 600px;
-    background-image: linear-gradient(rgb(7, 22, 74), black);
+    height: 495px;
+    background-image: linear-gradient(rgb(7, 22, 74), rgb(13, 15, 42));
     background-size: cover;
 }
 
 .overlay{
     position: relative;
-    top: 165px;
+    top: 65px;
     left: 20px;
     width: 450px;
     height: 240px;
@@ -379,7 +390,7 @@ text-decoration: none;
 
 #about_h_one{
     position: relative;
-    bottom: 30px;
+    bottom: 130px;
     left: 46px;
     color: rgb(34, 34, 180);
     font-size: 27px;
@@ -388,7 +399,7 @@ text-decoration: none;
 
 #hr_about_one{
     position: relative;
-    bottom: 20px;
+    bottom: 120px;
     border: 2px solid red;
     width: 420px;
     left: 30px;
@@ -398,13 +409,13 @@ text-decoration: none;
 #about_p_one{
     position: relative;
     left: 30px;
-    bottom: 10px;
+    bottom: 110px;
     color: aliceblue;
 }
 
 .overlay_two{
     position: relative;
-    bottom: 220px;
+    bottom: 320px;
     left: 900px;
     width: 450px;
     height: 240px;
@@ -413,14 +424,14 @@ text-decoration: none;
 }
 #about_h_two{
     position: relative;
-    bottom: 420px;
+    bottom: 520px;
     left: 1000px;
     color: rgb(34, 34, 180);
 }
 
 #hr_about_two{
     position: relative;
-    bottom: 410px;
+    bottom: 510px;
     border: 2px solid red;
     width: 420px;
     left: 910px;
@@ -429,16 +440,347 @@ text-decoration: none;
 #about_p_two{
     position: relative;
     left: 920px;
-    bottom: 400px;
+    bottom: 500px;
     color: aliceblue;
 }
 
 .logo_cuba_about_bg{
     position: absolute;
-    top: 1140px;
+    top: 1300px;
     left: -70px;
 }
 
+.consultoria_online_planos{
+    height: 500px;
+    background-image: linear-gradient(rgb(13, 15, 42),rgb(0, 0, 0));
+}
+h1.h_planos_consultoria{
+    color: blue;
+    position: relative;
+    left: 610px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h2.h_planos_consultoria{
+    color: blue;
+    position: relative;
+    left: 550px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.planos_overlay_container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+#overlay_planos{
+    position: relative;
+    border: 3px solid red;
+    top: 40px;
+    width: 350px;
+    height: 270px;
+    background-color: rgba(255, 255, 255); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px;
+}
+#planos_conteiner_h_one{
+    color: blue;
+    padding: 0 0 0 60px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_h_two{
+    color: blue;
+    padding: 0 0 0 60px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_h_three{
+    color: blue;
+    padding: 0 0 0 60px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_valor_p_one{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_valor_one{
+    color: rgb(38, 227, 95);
+    padding: 0 0 0 250px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_duracao_p_one{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_duracao_one{
+    position: relative;
+    left: 250px;
+    top: 5px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_renovacao_p_one{
+    position: relative;
+    left: 15px;
+    top: 40px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_renovacao_one{
+    position: relative;
+    left: 250px;
+    top: 15px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_button_one{
+    background-color: rgb(38, 227, 95);
+    color: white;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#planos_conteiner_button_one:hover{
+    opacity: 0.5;
+}
+#overlay_planos_two{
+    position: relative;
+    border: 3px solid red;
+    top: 40px;
+    
+    width: 350px;
+    height: 270px;
+    background-color: rgba(255, 255, 255); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px;
+}
+#planos_conteiner_valor_p_two{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_valor_two{
+    color: rgb(38, 227, 95);
+    padding: 0 0 0 250px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_duracao_p_two{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_duracao_two{
+    position: relative;
+    left: 250px;
+    top: 5px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_renovacao_p_two{
+    position: relative;
+    left: 15px;
+    top: 40px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_renovacao_two{
+    position: relative;
+    left: 250px;
+    top: 15px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_button_two{
+    background-color: rgb(38, 227, 95);
+    color: white;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#planos_conteiner_button_two:hover{
+    opacity: 0.5;
+}
+#overlay_planos_three{
+    position: relative;
+    border: 3px solid red;
+    top: 40px;
+    
+    width: 350px;
+    height: 270px;
+    background-color: rgba(255, 255, 255); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px;
+}
+#planos_conteiner_valor_p_three{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_valor_three{
+    color: rgb(38, 227, 95);
+    padding: 0 0 0 250px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_duracao_p_three{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_duracao_three{
+    position: relative;
+    left: 250px;
+    top: 5px;
+    letter-spacing: 2px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_renovacao_p_three{
+    position: relative;
+    left: 15px;
+    top: 40px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_renovacao_three{
+    position: relative;
+    left: 250px;
+    top: 15px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#planos_conteiner_button_three{
+    background-color: rgb(38, 227, 95);
+    color: white;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#planos_conteiner_button_three:hover{
+    opacity: 0.5;
+}
 
 
 
