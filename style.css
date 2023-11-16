@@ -12,10 +12,21 @@ body{
     overflow-x: hidden;
 }
 
+main{
+    overflow:hidden;
+    width: auto;
+}
+
 :root{
     --cor-primaria: white;
     --cor-secundaria: red;
     --cor-tercearia: rgb(88, 202, 255);
+}
+
+.zap_float{
+    position: fixed;
+    margin: 600px 0 0 1300px;
+    z-index: 2;
 }
 
 .first{
@@ -35,6 +46,7 @@ body{
 .cobp_mantra{
     position: relative;
     left: 480px;
+    max-width: fit-content;
 }
 #cobp_one{
     font-family: 'Aref Ruqaa Ink', serif;
@@ -61,7 +73,10 @@ font-family: 'Orbitron', sans-serif;
 font-family: 'Pixelify Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
-.overlay_first{
+.overlay_first_txt{
+    width: auto;
+}
+#overlay_first{
     position: relative;
     top: 70px;
     left: 20px;
@@ -93,8 +108,9 @@ left: 70px;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
 }
-.overlay_first_two{
+#overlay_first_two{
     position: absolute;
     top: 490px;
     left: 20px;
@@ -126,8 +142,9 @@ left: 70px;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
 }
-.overlay_first_three{
+#overlay_first_three{
     position: absolute;
     top: 215px;
     left: 880px;
@@ -159,8 +176,9 @@ bottom: 162px;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
 }
-.overlay_first_four{
+#overlay_first_four{
     position: absolute;
     top: 480px;
     left: 880px;
@@ -192,6 +210,7 @@ bottom: 162px;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
 }
 
 .first_consultoria_online h2{
@@ -205,6 +224,7 @@ font-family: 'Aref Ruqaa Ink', serif;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+        max-width: fit-content;
 }
 #consultoria_price_s{
     color: blue;
@@ -217,6 +237,7 @@ left: 640px;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+        max-width: fit-content;
 }
 #consultoria_price{
     color: rgb(38, 227, 95);
@@ -247,6 +268,7 @@ transition: background-color 0.3s ease;
     background-color: rgb(38, 227, 95);
     color: black;
 }
+
 
 .navbar{
     display: flex;
@@ -285,10 +307,13 @@ text-decoration: none;
 }
 
 .nav_logo{
-    position: absolute;
-   left: 600px;
+    position: relative;
+   left: 400px;
    top: -20px;
    
+}
+nav{
+    float: right;
 }
 
 .nav_navigations{
@@ -344,6 +369,7 @@ text-decoration: none;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
 }
 .cref_about_cuba{
     color: rgb(117, 117, 131);
@@ -356,6 +382,7 @@ text-decoration: none;
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+        max-width: fit-content;
 }
 .text_about_cuba{
     width: 780px;
@@ -393,6 +420,7 @@ text-decoration: none;
     color: rgb(34, 34, 180);
     font-size: 27px;
     font-weight: bold;
+    max-width: fit-content;
 }
 
 #hr_about_one{
@@ -409,6 +437,7 @@ text-decoration: none;
     left: 30px;
     bottom: 110px;
     color: aliceblue;
+    max-width: fit-content;
 }
 
 .overlay_two{
@@ -425,6 +454,7 @@ text-decoration: none;
     bottom: 520px;
     left: 1000px;
     color: rgb(34, 34, 180);
+    max-width: fit-content;
 }
 
 #hr_about_two{
@@ -440,12 +470,14 @@ text-decoration: none;
     left: 920px;
     bottom: 500px;
     color: aliceblue;
+    max-width: fit-content;
 }
 
 .logo_cuba_about_bg{
     position: absolute;
     top: 1300px;
-    left: -70px;
+    left: 400px;
+    max-width: fit-content;
 }
 
 .consultoria_online_planos{
@@ -462,8 +494,10 @@ h1.h_planos_consultoria{
     font-family: 'Orbitron', sans-serif;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    max-width: fit-content;
 }
 h2.h_planos_consultoria{
+    max-width: fit-content;
     color: blue;
     position: relative;
     left: 550px;
@@ -478,6 +512,15 @@ h2.h_planos_consultoria{
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+}
+.overlay_items p{
+    max-width: fit-content;
+}
+.overlay_items_two p{
+    max-width: fit-content;
+}
+.overlay_items_three p{
+    max-width: fit-content;
 }
 #overlay_planos{
     position: relative;
@@ -780,20 +823,43 @@ justify-content: space-around;
     opacity: 0.5;
 }
 
-.black_fit{
-    background-image: url(img/blackfitgreen2.jpg);
-    height: 875px;
-    background-position: -36px 0;
-    background-size: 109%;
+.consultoria_funcionamento{
+    height: 500px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(49, 47, 118));
 }
-.connector_blackfit{
-    height: 27px;
-    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(61, 109, 61), transparent);
-    position: relative;
-    top: 130px;
-    
+.consultoria_funcionamento p{
+font-size: 20px;
+text-align: center;
+}
+.consultoria_funcionamento h1{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    .overlay_items p{
+        max-width: fit-content;
+    }
 }
 
+.overlay_funcionamento{
+     position: relative;
+    border: 3px solid red;
+    top: 40px;
+    left: 320px;
+    width: 730px;
+    height: 310px;
+    background-color: rgba(255, 255, 255); /* 0.5 define a opacidade (ajuste conforme necessário) */
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.connector_bf_saibamais{
+    height: 120px;
+    background:linear-gradient(rgb(49, 47, 118),rgb(28, 84, 64)) ;
+}
+.blackfit_apresentation{
+  height:860px;
+  background-image: url(img/blackfitgreen2.jpg);
+  overflow: hidden;
+}
 .p_one_blackfit{
     font-size: 80px;
     font-family: 'Alumni Sans Collegiate One', sans-serif;
@@ -801,20 +867,19 @@ color: rgb(164, 233, 121);
 text-shadow: 6px 6px 0 rgb(54, 79, 38);
 text-align: center;
 position: relative;
-top: -120px;
+bottom: 200px;
 left: 0px;
 }
 
 .p_one_blackfit_hr{
     flex-direction: row;
     position: relative;
-    bottom: 425px;
+    bottom: 510px;
    margin: 0 0 0 625px;
     width: 100px;
     border: 3px solid white;
     border-radius: 5px;
 }
-
 .cuba_logo_blackfit{
     margin: 0;
     position: relative;
@@ -826,7 +891,6 @@ left: 0px;
     left: 900px;
     bottom: 590px;
 }
-
 .p_two_blackfit{
     color: rgb(164, 233, 121);
     font-size: 40px;
@@ -839,177 +903,113 @@ left: 0px;
     
     height: fit-content;
     position: relative;
-    bottom: 400px;
+    bottom: 500px;
     left: 430px;
 }
 .p_two_blackfit span{
     color: rgb(195, 187, 187);
 }
-.p_three_blackfit{
-    color: rgb(200, 223, 242);
-    position: relative;
-    bottom: 380px;
-    left: 330px;
-    font-size: 22px;
-    font-family: 'Poppins', sans-serif;
+.overlay_p_blackfit{
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(45, 231, 45, 0.7));
+border: 1px solid;
+border-radius: 10px;
+position: relative;
+bottom: 480px;
+height: 180px;
+width: 1250px;
+left: 50px;
 }
 .p_p_blackfit{
-    font-size: 20px;
+    font-size: 21px;
     font-family: 'Poppins', sans-serif;
     color: rgb(200, 223, 242);
-}
-#p_frase_blackfit_green{
-    border-radius: 5px;
-    background-color: rgb(27, 224, 27);
-    color: #000000;
+    margin: 0 0 -10px 70px;
     position: relative;
-    left: 1075px;
-    bottom: 400px;
-    width: 270px;
+    bottom:650px;
+    text-align: center;
+    width: 1200px;
 }
-#p_p_blackfitone{
-    position: relative;
-    bottom: 340px;
-    left: 330px;
-    width: 800px;
-}
-#p_p_blackfittwo{
-    position: relative;
-    bottom: 300px;
-    left: 330px;
-    width: 800px;
-}
-#p_p_blackfitthree{
-    position: relative;
-    bottom: 280px;
-    left: 330px;
-    width: 800px;
-}
-#p_p_blackfitfour{
-    position: relative;
-    bottom: 260px;
-    left: 330px;
-    width: 800px;
-}
-#p_p_blackfitfive{
-    position: relative;
-    bottom: 240px;
-    left: 330px;
-    width: 800px;
-}
-
-
-.blackfit_dois{
-    height: 1620px;
-    background-image: url(img/blackfitgreen2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.blackfit_classifications{
-    display: flex;
-    gap: 200px;
-}
-.p_blackfit_classifications{
-   height: 30px;
-    color: rgb(200, 223, 242);
-    position: relative;
-   top: 600px;
-    left: 90px;
-    font-size: 22px;
-    font-family: 'Poppins', sans-serif;
-}
-.blackfit_offers{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.p_blackfit_offers{
-   color: rgb(200, 223, 242);
-   position: relative;
-   top: 639px;
-   left: 90px;
-   font-size: 20px;
-   font-family: 'Poppins', sans-serif;
-}
-#hr_blackoffers_one{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_two{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_three{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_four{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_five{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_six{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_seven{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_eight{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_nine{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-#hr_blackoffers_ten{
-    top: 620px;
-    position: relative;
-    width: 300px;
-    left: 90px;
-}
-
-.blackfit_afirmations{
-display: flex;
-flex-direction: column;
-gap: 11px;
-}
-.p_blackfit_afirmations{
-color: rgb(200, 223, 242);
+.blackfit_btn_saibamais{
+background-color: rgb(25, 218, 15);
 position: relative;
-top: -310px;
-left: 480px;
-font-size: 20px;
+bottom: 610px;
+width: 200PX;
+height: 50px;
+border-radius: 15px;
+left: 570px;
+color: rgb(0, 0, 0);
+border:solid 1px white;
+cursor: pointer;
+transition: background-color 2s, color 2s;
 font-family: 'Poppins', sans-serif;
+font-size: 16px;
 }
-.hr_blackfit_afirmations{
-    top: -325px;
+.blackfit_btn_saibamais:hover{
+    background-color: rgb(72, 182, 233);
+    color: white;
+}
+
+.up_footer{
+    border: 2px solid red;
+}
+footer{
+    background: linear-gradient(rgb(49, 47, 118), rgb(0, 0, 0));
+    height: 200px;
+    overflow: hidden;
+}
+.contact-info{
+    padding-left: 10px;
+}
+.contact-info h3{
+    color: white;
+}
+.contact-info p{
+    color: white;
+}
+.contact-info a{
+    color: green;
+}
+
+.footer_copyright{
+    text-align: center;
     position: relative;
-    width: 120px;
-    left: 450px;
+    left: 35px;
+    color: grey;
+    font-weight: bold;
+    top: 110px;
 }
+.social-media{
+position: relative;
+left: 200px;
+}
+.social-media h3{
+    color: aliceblue;
+    }
+    .social-media a{
+        color: green;
+position: relative;
+top: 5px;
+font: 22px;
+
+        }
+.footer-content{
+    display: flex;
+    flex-direction: row;  
+    font-family: 'Poppins', sans-serif;
+}
+.nav_logo_two{
+    position: relative;
+    left: 290px;
+    bottom: 20px;
+}
+
+.footer_icon_contacts{
+    display: flex;
+    position: relative;
+    top: 140px;
+    right: 210px;
+}
+.footer_icon_contacts li{
+    list-style: none;
+}
+

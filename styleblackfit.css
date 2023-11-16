@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Bebas+Neue&family=Josefin+Sans:wght@500&family=Orbitron:wght@500&family=Pixelify+Sans:wght@500&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Bebas+Neue&family=Josefin+Sans:wght@500&family=Moulpali&family=Orbitron:wght@500&family=Pixelify+Sans:wght@500&family=Poppins:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.blackfit_logo_header{
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    color: rgb(73, 230, 170);
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+}
+
+header{
+  height: 100px;
+  background: linear-gradient(rgb(13, 205, 131), rgb(6, 18, 6));
+}
+
+.black_fit{
+    background-image: url(img/InShot_20231025_181104452~2.jpg);
+    height: 1475px;
+    background-position: -36px 0;
+    background-size: 109%;
+    
+}
+
+
+
+.p_one_blackfit{
+    font-size: 80px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+color: rgb(95, 235, 151);
+text-shadow: 6px 6px 0 rgb(54, 79, 38);
+text-align: center;
+position: relative;
+top: -120px;
+left: 0px;
+}
+
+.p_one_blackfit_hr{
+    flex-direction: row;
+    position: relative;
+    bottom: 425px;
+   margin: 0 0 0 625px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.cuba_logo_blackfit{
+    margin: 0;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}
+.allan_logo_blackfit{
+    position: relative;
+    left: 900px;
+    bottom: 590px;
+}
+#p_planos_a_partir_blackfit{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(32, 255, 121);
+text-shadow: 6px 6px 6px rgba(137, 185, 107, 0.7);
+font-weight: bold;
+text-align: center;
+position: relative;
+top: -380px;
+left: 0px;
+}
+.p_two_blackfit{
+    color: rgb(32, 255, 121);
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+    
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px rgba(105, 244, 89, 0.7);
+    
+    height: fit-content;
+    position: relative;
+    bottom: 400px;
+    left: 430px;
+}
+.p_two_blackfit span{
+    color: rgb(195, 187, 187);
+}
+.nav_navigations{
+    float: right;
+    display: flex;
+}
+.nav_navigations li{
+    list-style: none;
+}
+.nav_navigations a{
+   text-decoration: none;
+   list-style: none;
+   color: white;
+   margin-right: 20px;
+   position: relative;
+   bottom: 40px;
+   font-size: 20px;
+   transition: 1s;
+}
+.nav_navigations a:hover{
+color: rgb(35, 233, 167);
+text-decoration: underline;
+}
+
+.connector_one{
+    height: 20px;
+    background: linear-gradient(rgb(6, 18, 6), rgb(22, 56, 41));
+}
+
+.p_three_blackfit{
+    color: rgb(200, 223, 242);
+    position: relative;
+    bottom: 380px;
+    left: 330px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.p_p_blackfit{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(200, 223, 242);
+    margin: 0 0 -10px 0;
+}
+#p_frase_blackfit_green{
+    border-radius: 5px;
+    background-color: rgb(27, 224, 27);
+    color: #000000;
+    position: relative;
+    left: 1075px;
+    bottom: 400px;
+    width: 270px;
+}
+#p_p_blackfitone{
+    position: relative;
+    bottom: 340px;
+    left: 330px;
+    width: 800px;
+}
+#p_p_blackfittwo{
+    position: relative;
+    bottom: 300px;
+    left: 330px;
+    width: 800px;
+}
+#p_p_blackfitthree{
+    position: relative;
+    bottom: 280px;
+    left: 330px;
+    width: 800px;
+}
+#p_p_blackfitfour{
+    position: relative;
+    bottom: 260px;
+    left: 330px;
+    width: 800px;
+}
+#p_p_blackfitfive{
+    position: relative;
+    bottom: 240px;
+    left: 330px;
+    width: 800px;
+}
+
+.blackfit_oquevaireceber{
+height: 600px;
+z-index:2;
+}
+.blackfit_oquevaireceber h1{
+    color: rgb(32, 255, 121); 
+    font-size: 80px;
+    position: relative;
+    
+    left: 80px;
+}
+.p_oqvr_container{
+position: relative;
+font-size: 30px;
+z-index:2;
+left: 80px;
+color: white;
+
+}
+.p_oqvr_container_two{
+    position: relative;
+    font-size: 30px;
+    bottom: 250px;
+    left: 700px;
+    z-index: 2;
+    color: white;
+    }
+    #p_oqvr_bf_price{
+border: solid 4px rgb(173, 255, 47);
+border-radius: 10px;
+box-shadow: 0 0 10px 10px rgb(173, 255, 47, 0.7);
+font-size: 35px;
+color: white;
+position: relative;
+bottom: 150px;
+width: 450px;
+left: 50px;
+padding-left: 20px;
+z-index:2;
+    }
+
+    .formblackfit_btn{
+        background-color: rgb(90, 156, 254);
+        color: aliceblue;
+        border-radius: 10px;
+        width: 200px;
+        height: 60px;
+        position: relative;
+        left: 600px;
+        bottom: 200px;
+        font-family: 'Poppins', sans-serif;
+        transition: 2s;
+        z-index: 3;
+    }
+    .formblackfit_btn:hover{
+        background-color: green;
+        color: rgb(130, 130, 130);
+        cursor: pointer;
+    }
+
+.blackfit_dois{
+    height: 1720px;
+    background-image: url(img/blackfitgreen2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.blackfit_tabela{
+    position: relative;
+    bottom: 600px;
+}
+.blackfit_classifications{
+    display: flex;
+    gap: 200px;
+}
+.p_blackfit_classifications{
+   height: 30px;
+    color: rgb(200, 223, 242);
+    position: relative;
+   top: 600px;
+    left: 90px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.blackfit_offers{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.p_blackfit_offers{
+   color: rgb(200, 223, 242);
+   position: relative;
+   top: 639px;
+   left: 90px;
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+#hr_blackoffers_one{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_two{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_three{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_four{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_five{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_six{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_seven{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_eight{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_nine{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+#hr_blackoffers_ten{
+    top: 620px;
+    position: relative;
+    width: 300px;
+    left: 90px;
+}
+
+.blackfit_afirmations{
+display: flex;
+flex-direction: column;
+gap: 11px;
+}
+.p_blackfit_afirmations{
+color: rgb(200, 223, 242);
+position: relative;
+top: -310px;
+left: 480px;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+}
+.hr_blackfit_afirmations{
+    top: -325px;
+    position: relative;
+    width: 120px;
+    left: 450px;
+}
+
+.blackfit_afirmations_two{
+    display: flex;
+flex-direction: column;
+gap: 11px;
+}
+.p_blackfit_afirmationstwo{
+    color: rgb(200, 223, 242);
+    position: relative;
+    top: -1260px;
+    left: 820px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    }
+    .hr_blackfit_afirmationstwo{
+        top: -1275px;
+        position: relative;
+        width: 120px;
+        left: 790px;
+    }
+
+    .blackfit_afirmations_three{
+        display: flex;
+    flex-direction: column;
+    gap: 11px;
+    }
+    .p_blackfit_afirmationsthree{
+        color: rgb(200, 223, 242);
+        position: relative;
+        top: -2210px;
+        left: 1150px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        }
+        .hr_blackfit_afirmationsthree{
+            top: -2225px;
+            position: relative;
+            width: 120px;
+            left: 1120px;
+        }
+        .blackfit_prices{
+position: relative;
+bottom: 2200px;
+left: 420px;
+display: flex;
+gap: 170px;
+text-align: center;
+align-content: center;
+        }
+        .blackfit_price_itens{
+border: 2px solid greenyellow;
+font-family: 'Poppins', sans-serif;
+font-size: 22px;
+color: rgb(200, 223, 242);
+justify-content: center;
+align-items: center;
+        }
+        #blackfit_price_one{
+            padding-top: 30px;
+        }
+        #blackfit_price_two{
+            padding-top: 30px;
+        }
+
+.blackfit_resultados{
+    height: 600px;
+    background-image: url(img/blackfitgreen2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blackfit_resultados h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blackfit_funcionamento{
+    height: 1100px;
+    background-image: url(img/blackfitgreen2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blackfit_funcionamento h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.frases_p_funcionamento{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.p_frases_funcionamento_itens{
+color: aliceblue;
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+width: 1400px;
+position: relative;
+left: 30px;
+top: 20px;
+}
+
+        .blackfit_tres{
+            height: 1600px;
+            background-image: url(img/bgblackfitthree.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100%;
+        }
+        #p_bftres_one{
+            color: rgb(200, 223, 242);
+            font-weight: bold;
+            position: relative;
+            left: 100px;
+            font-size: 80px;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        .hr_bftres{
+            border: 10px solid greenyellow;
+            border-radius: 10px;
+            width: 200px;
+            position: relative;
+            left: 100px;
+        }
+        .h1_bftres{
+            font-size: 80px;
+            color: rgb(200, 223, 242);
+        }
+       .p_bftres_frases{
+        font-size: 26px;
+            color: rgb(200, 223, 242);
+            width: 400px;
+       }
+       #h1_bftres_one{
+        position: relative;
+       left: 10px;
+       top: 80px;
+       }
+       #h1_bftres_two{
+        position: relative;
+        left: 800px;
+        bottom: 210px;
+       }
+       #p_bftres_two{
+        position: relative;
+        left: 90px;
+        top: 60px;
+        text-align: justify;
+       }
+       #p_bftres_three{
+        position: relative;
+        left: 880px;
+        bottom: 230px;
+        text-align: justify;   
+    }
+
+    #p_blackfit_agradecimento_one{
+        font-size: 80px;
+        color: white;
+        position: relative;
+        left: 200px;
+    }
+    #p_blackfit_agradecimento_two{
+        font-size: 80px;
+        position: relative;
+        left: 270px;
+        color: rgb(176, 249, 51);
+        font-weight: bold;
+        position: relative;
+    }
+#p_blackfit_agradecimento_frase{
+    color: white;
+    width: 300px;
+    left: 500px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+#h1_blackfit_agradecimento{
+    font-size: 100px;
+    
+color: rgb(164, 233, 121);
+text-shadow: 6px 6px 6px rgba(112, 219, 46, 0.7);
+letter-spacing: 8px;
+text-align: center;
+position: relative;
+font-family: 'Poppins', sans-serif;
+}
+
+#p_blackfit_agradecimento_three{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+color: white;
+width: 500px;
+font-size: 22px;
+position: relative;
+left: 430px;
+}
+
+.social_media_descriptions_blackfit_final_gleidson{
+    position: relative;
+    left: 950px;
+}
+
+#instagram_blackfit_final{
+    position: relative;
+    right: 38px;
+    top: 35px;
+}
+.number_blackfit_final{
+    position: relative;
+    left: 35px;
+    text-decoration: none;
+    color: white;
+    bottom: 30px;
+}
+.ig_blackfit_final{
+    color: white;
+    position: relative;
+    left: 35px;
+    text-decoration: none;
+    bottom: 15px;
+}
+
+
+.social_media_descriptions_blackfit_final_allan{
+    position: relative;
+    left: 300px;
+}
+#whatsapp_two_blackfit_final{
+position: relative;
+bottom: 70px;
+}
+#instagram_two_blackfit_final{
+    position: relative;
+    right: 38px;
+    bottom: 35px;
+}
+.number_two_blackfit_final{
+    position: relative;
+    left: 35px;
+    text-decoration: none;
+    color: white;
+    bottom: 100px;
+}
+.ig_two_blackfit_final{
+    color: white;
+    position: relative;
+    left: 35px;
+    text-decoration: none;
+    bottom: 85px;
+}

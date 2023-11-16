@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Bebas+Neue&family=Josefin+Sans:wght@500&family=Orbitron:wght@500&family=Pixelify+Sans:wght@500&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Bebas+Neue&family=Josefin+Sans:wght@500&family=Moulpali&family=Orbitron:wght@500&family=Pixelify+Sans:wght@500&family=Poppins:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+
+html{
+  overflow-x: hidden;
+}
+
+
+header{
+  border-bottom: 2px solid;
+  position: fixed;
+width: 100%;
+z-index:900;
+height: 100px;
+background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(10, 10, 227, 0.5));
+}
+
+nav{
+display: flex;
+width: 97%;
+align-items: center;
+  justify-content: space-between;
+  
+  top: 0; left: 0;right: 0; 
+  
+}
+
+.navbar{
+  text-align: center;
+  align-content: space-between;
+}
+.navbar a:hover{
+  color:greenyellow;
+  border-bottom: .1rem solid white;
+  padding-bottom: .3rem;
+}
+
+.navbar a{
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+  font-weight: bold;
+}
+
+.nav_logo{
+  margin-bottom: 1rem;
+}
+
+#menu-btn{
+  display: none;
+}
+
+.icons{
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+  
+}
+.icons:hover{
+  color: greenyellow;
+}
+
+.hero_section{
+  height: 800px;
+  background-image: url(img/InShot_20231009_184420114.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_social_media_container{
+  display: flex;
+ flex-direction: column;
+ position: relative;
+ top: 300px;
+ width: fit-content;
+}
+
+.consultoria_text_hero{
+ text-align: center;
+ align-items: center;
+}
+
+.consultoria_text_hero p{
+  color: #fff;
+  font-weight: bold;
+}
+
+.consultoria_text_hero span{
+  color: rgb(89, 180, 240);
+}
+
+.consultoria_text_hero_itens{
+text-align: center;
+}
+
+.consultoria_text_hero hr{
+  border-color:red;
+  
+}
+
+
+
+.contentoverlay_one{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contentoverlay_one hr{
+  width: 150px;
+ margin-left: 100px;
+ border-color: red;
+}
+
+.overlay_first_txt_hero{
+background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(77, 73, 73, 0.8));
+width: 350px;
+text-align: center;
+color: white;
+margin: 30px 0 0 0px;
+border: 1px solid transparent ;
+border-radius: 15px;
+}
+
+.overlay_second_txt_hero{
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(77, 73, 73, 0.8));
+  width: 350px;
+  text-align: center;
+  color: white;
+  margin: 30px 0 0 60px;
+  border-radius: 15px;
+  }
+
+  .contentoverlay_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .contentoverlay_two hr{
+    width: 150px;
+   margin-left: 100px;
+   border-color: red;
+  }
+  
+  .overlay_three_txt_hero{
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(77, 73, 73, 0.8));
+  width: 350px;
+  text-align: center;
+  color: white;
+  margin: 100px 0 0 0px;
+  border: 1px solid transparent ;
+  border-radius: 15px;
+  }
+  
+  .overlay_four_txt_hero{
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(77, 73, 73, 0.8));
+    width: 350px;
+    text-align: center;
+    color: white;
+    margin: 100px 0 0 60px;
+    border-radius: 15px;
+    }
+  
+    .consultoria_online_offer_hero{
+      margin: 156px 0 0 0;
+      text-align: center;
+      color: blue;
+      }
+
+      #consultoria_price_offer_htwo{
+        color:greenyellow;
+      }
+  
+      .consultoria_online_offer_hero button{
+        color: white;
+        background-color: rgb(71, 130, 227);
+        border: none;
+        width: 200px;
+        height:30px;
+        border-radius: 10px;
+        cursor:pointer;
+        transition: 1s;
+      }
+      .consultoria_online_offer_hero button:hover{
+        color: black;
+        background-color:greenyellow;
+      }
+
+#connector_one{
+  height: 10px;
+  background: linear-gradient(to bottom, rgb(7, 7, 67, 0.7), blue);
+
+}
+
+.personal_about{
+  heigh:800px;
+  background: linear-gradient(blue, rgb(31, 31, 164));
+  display: flex;
+  justify-content: center;
+}
+
+      .overlay_personal_about{
+        width: 700px;
+        height: 480px;
+        text-align: center;
+        border: 3px solid red;
+        background: linear-gradient(rgb(191, 191, 191), rgb(255, 194, 194));
+        border-radius:10px;
+        margin: 0 0 0 0px;
+        
+      }
+
+      .overlay_personal_about img{
+        border-radius: 50%;
+        border: black solid 6px;
+        margin-top: 10px;
+      }
+
+      #personal_name{
+      color: blue;
+      font-weight: bold;
+      }
+
+      #personal_cref{
+        color:rgb(131, 131, 131);
+        font-weight: bold;
+      }
+
+      .consultoria_about{
+height:600px;
+background: linear-gradient(rgb(31, 31, 164), rgb(27, 27, 87));
+display: flex;
+justify-content: center;
+      }
+
+      .overlay_consultoria_about_one{
+background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(77, 73, 73, 0.8));
+text-align: center;
+margin-top:24px;
+height: fit-content;
+border-radius: 10px;
+
+      }
+
+      .overlay_consultoria_about_one h2{
+        color:red;
+
+      }
+
+.overlay_consultoria_about_one p{
+  color:white;
+}
+
+.overlay_consultoria_about_one hr{
+  border: 2px solid blue;
+}
+
+.overlay_consultoria_about_two{
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(77, 73, 73, 0.8));
+  text-align: center;
+  width: 500px;
+  height: fit-content;
+  border-radius: 10px;
+  margin-top:24px;
+  z-index: 10;
+        }
+  
+        .overlay_consultoria_about_two h1{
+          color:red;
+  
+        }
+  
+  .overlay_consultoria_about_two p{
+    color:white;
+  }
+  
+  .overlay_consultoria_about_two hr{
+    border: 2px solid blue;
+  }
+
+  .consultoria_about img{
+    z-index: 0;
+    width: 400px;
+height:350px;
+  }
+
+
+
+  .planos_consultoria{
+background:linear-gradient(rgb(27, 27, 87), rgb(10, 10, 21));
+height: 370px;
+  }
+
+  .consultoria_online_planos{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    color:blue;
+  }
+
+  .planos_consultoria_overlay_container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 70px;
+
+  }
+
+  .planos_consultoria_overlay_container h2{
+    color: red;
+    text-align: center;
+  }
+
+  .planos_consultoria_overlay_container span{
+    color:rgb(37, 234, 60);
+  }
+
+  .planos_consultoria_overlay_container button{
+    background-color: rgb(37, 234, 60);
+    width:150px;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+  }
+
+  #overlay_planos_consultoria{
+    border: 4px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 160px;
+  }
+
+  .overlay_planos_consultoria_two{
+    border: 4px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 160px;
+  }
+
+  .overlay_planos_consultoria_three{
+    border: 4px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 160px;
+  }
+
+  .como_funciona{
+    height: 500px;
+    background: linear-gradient(rgb(10, 10, 21), rgb(0, 0, 0));
+    justify-content: center;
+    text-align: center;
+  }
+
+  .como_funciona h1{
+    color:blue;
+  }
+
+  .cf_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .overlay_cf{
+background-color: #fff;
+border: 4px solid red;
+border-radius: 10px;
+width: 600px;
+height: 300px;
+font-size: 22px;
+  }
+
+  
+
+  .pg_blackfit{
+background-image: url(img/blackfitgreen2.jpg);
+height:1250px;  
+}
+
+  .blackfit_container_1{
+display: flex;
+justify-content: space-around;
+  }
+  .cuba_logo_blackfit{
+    width: 400px;
+  }
+  .allan_logo_blackfit{
+margin-top:60px;
+  }
+
+  .p_one_pg_blackfit{
+    font-size: 80px;
+    
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+color: rgb(164, 233, 121);
+text-shadow: 6px 6px 0 rgb(54, 79, 38);
+text-align: center;
+margin:150px 0 0 0;
+  }
+
+  #span_one_pg_blackfit{color: rgb(164, 233, 121);
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+    
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px rgba(105, 244, 89, 0.7);
+    height: fit-content;
+  }
+
+  #span_two_pg_blackfit{
+    color: rgb(195, 187, 187);
+    font-size: 37px;
+    text-shadow: 10px 10px 10px rgba(133, 138, 133, 0.7);
+  font-weight: bold;
+  }
+
+  .blackfit_container_2{
+display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .overlay_p_blackfit{
+    border: 4px solid greenyellow;
+    border-radius: 10px;
+    width: 800px;
+    font-size:22px;
+    color:rgb(195, 187, 187);
+    font-weight: bold;
+  justify-content: center;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(45, 231, 45, 0.7));
+  }
+
+  .blackfit_btn_saiba_mais{
+display:flex;
+    justify-content: center;
+margin-top: 30px;
+  }
+
+  .blackfit_btn{
+    width: 200px;
+    height:50px;
+    color:white;
+    background-color:rgba(45, 231, 45);
+    border-radius: 15px;
+    transition: 1s;
+    border:none;
+    cursor:pointer;
+  }
+
+  .blackfit_btn:hover{
+    color: black;
+    background-color:grey;
+  }
+
+  .hr_up_footer{
+border: 2px solid grey;
+  }
+
+  footer{
+background: linear-gradient(rgb(49, 47, 118), rgb(0, 0, 0));
+height: 200px;
+display:flex;
+    justify-content: center;
+  }
+
+.footer_container{
+  display:flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 100%;
+    margin-right:90px;
+
+}
+
+  .footer_content_two{
+    text-align: center;
+  }
+
+
+@media (max-width: 1014px){
+  .consultoria_about img{
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 978px){
+  .allan_logo_blackfit{
+    width: 130px;
+    height: 150px;
+  }
+
+  .cuba_logo_blackfit{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 786px){
+  .cuba_logo_blackfit{
+   width: 150px;
+  }
+
+  .blackfit_container_2{
+    width: 500px;
+    height: 400px;    
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  .p_p_blackfit{
+    font-size:18px;
+  }
+}
+
+@media (max-width: 732px){
+  .pg_blackfit{
+    height: 1360px;
+  }
+
+.overlay_first_txt_hero{
+width: 280px;
+}
+
+.first_text_one_hero{
+  
+}
+
+
+}
+@media (max-width: 642px){
+  .blackfit_container_2{
+    margin-left: 60px;
+    width: 400px;
+    heigth: 340px;
+  }
+
+  .span_two_pg_blackfit{
+  font-size: 10px;
+  }
+  
+}
