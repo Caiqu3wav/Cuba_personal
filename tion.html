@@ -7,29 +7,37 @@
     <link rel="stylesheet" href="styletion.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="tion.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/58d0538598.js" crossorigin="anonymous"></script>
     <title>Consultoria Cuba Personal</title>
 </head>
 <body>
-<header>
-    <nav>
-    <img class="nav_logo" src="img/InShot_20231008_094917347.png" width="100px" alt="">
-    <div class="navbar">
+    <main>
+<div class="mobile-container">
+    <div class="topnav">
+    <div class="nav">
+        <img class="active" href="#home" src="img/InShot_20231008_094917347.png" width="100px" alt="">
+    <div id="navbar_links">
+        <a href="#home">Home</a>
+        <a href="#personal">Personal</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#consultoria">Consultoria</a>
+        <a href="blackfit.html">BlackFit</a>
+        <a href="#servicos">Serviços</a>
+            </div></div>
+    <div id="myLinks">
 <a href="#home">Home</a>
 <a href="#personal">Personal</a>
 <a href="#sobre">Sobre</a>
- <a href="#consultoria">Consultoria</a>
+<a href="#consultoria">Consultoria</a>
 <a href="blackfit.html">BlackFit</a>
- <a href="#servicos">Serviços</a>
+<a href="#servicos">Serviços</a>
     </div>
-
-                <div class="icons">
-                    <div class="fas fa-bars" id="menu-btn"></div>
-                </div></div>
-            </nav>
-</header>
-<main>
-<section class="hero_section">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">  
+    <i class="fa-solid fa-bars" style="color: #ffffff;"></i></a>        
+    </div>
+</div>
+<section class="hero_section"> <a id="home"></a>
     <div class="main_social_media_container">
         <a href="https://wa.me/5512981359114" class="header_social_media_icons" id="header_instagram_icon"><img
             src="img/icons8-whatsapp-32.png" alt=""></a>
@@ -46,42 +54,49 @@
                                 </div>
 <div class="contentoverlay_one"><div class="overlay_first_txt_hero" id="overlay_first">
 
-<hr class="hr_overlay_first">
 <p class="first_text_one_hero">Treinamento flexível e personalizado <br>
     monitorado <br> com feedback <br> e orientado a resultados</p>
-<hr class="hr_overlay_first"></div>
+</div>
 
 <div class="overlay_second_txt_hero" id="overlay_second">
 
-<hr class="hr_overlay_second">
+
 <p class="second_text_one_hero">Monitoramento em tempo real e conveniência <br>
     experiência de treinamento interativa, <br> adaptável e acessível</p>
-<hr class="hr_overlay_second"></div></div>
+</div></div>
                                
 <div class="contentoverlay_two"><div class="overlay_three_txt_hero" id="overlay_three">
 
-    <hr class="hr_overlay_three">
+    
     <p class="three_text_one_hero">Abordagem moderna adequada <br> para iniciantes <br> e <br> atletas experientes</p>
-    <hr class="hr_overlay_three"></div>
+    </div>
     
     <div class="overlay_four_txt_hero" id="overlay_four">
     
-    <hr class="hr_overlay_four">
     <p class="four_text_one_hero">Orientação profissional para o sucesso, começe sua<br> jornada fitness
         conosco<br> e alcance seu potencial máximo.</p>
-    <hr class="hr_overlay_four"></div></div>
+    </div></div>
 
 <div class="consultoria_online_offer_hero">
                                     <h2>CONSULTORIA ONLINE</h2>
                                     <p id="consultoria_price_offer_p"><s>R$ 150,00</s></p>
                                     <h2 id="consultoria_price_offer_htwo">R$ 100,00</h2>
-                                    <a href="formulario300.html" target="_blank"><button>COMPRAR</button></a>
+                                    <button id="button_buy">COMPRAR</button>
                                 </div>
-                                
+                                <dialog id="modal">
+                                    <h2>QUAL PLANO VOCÊ DESEJA?</h2>
+                                    <select name="" id="planOptions">
+                                        <option value="consultoria_cuba">Consultoria Cuba</option>
+                                        <option value="blackfit">Blackfit Nutrição e Treinamento</option>
+                                    </select>
+                                    <button id="button_buy_modal" onclick="showPaymentForm()">COMPRAR</button>
+                                <button id="btn_close_modal">Fechar</button>
+                                </dialog>
+
 </section>  
 <div id="connector_one"></div>
 <section class="personal_about">
-    <div class="overlay_personal_about">
+    <div class="overlay_personal_about"> <a id="personal"></a>
         <img src="img/cubapic.jpg" width="200px" height="240px" alt="">
         <p id="personal_name">Gleidson Roberto dos Santos</p>
             
@@ -97,7 +112,7 @@
 </section>
 
 <section class="consultoria_about">
-    <div class="overlay_consultoria_about_one">
+    <div class="overlay_consultoria_about_one"> <a id="sobre"></a>
     <h2 id="consultoria_about_h_one">Consultoria Online Cuba Personal</h2>
                 <hr id="consultoria_about_hr_one">
                 <p id="consultoria_about_p_one">Com a crescente busca por soluções fitness e bem-estar <br> acessíveis
@@ -121,7 +136,7 @@
 </section>
 
 <section class="planos_consultoria">
-    <div class="consultoria_online_planos"> <a id="servicos"></a>
+    <div class="consultoria_online_planos"> <a id="consultoria"></a> 
         <h1 class="h_planos_consultoria">PLANOS <br>CONSULTORIA ONLINE</h1></div>
         <div class="planos_consultoria_overlay_container">
             <div id="overlay_planos_consultoria">
@@ -133,6 +148,7 @@
                             id="planos_conteiner_button_one">COMPRAR</button></a>
                 </div>
             
+
          
                 <div class="overlay_planos_consultoria_two">
                     <h2 id="planos_consultoria_conteiner_h_two">Consultoria online</h2>
@@ -171,7 +187,7 @@
     <div class="blackfit_container_1">
     <img src="img/cuba_logo_righter.png" width="400px" height="300px" alt="" class="cuba_logo_blackfit">
     <p class="p_one_pg_blackfit">PROGRAMA <BR>BLACK FIT <BR> 60 <br> <span id="span_one_pg_blackfit">NUTRIÇÃO E TREINAMENTO NO ESTILO</span> <br>
-        <span id="span_two_pg_blackfit">BLACK EXCELLENCE</span></p>
+        <span id="span_two_pg_blackfit">BLACK EXCELLENCE</span> <br> <span id="span_three_pg_blackfit">Vagas Limitadas!</span></p>
         <img src="img/allan_logo.png" width="400px" height="300px" alt="" class="allan_logo_blackfit"></div>
 
         <div class="blackfit_container_2">
@@ -180,7 +196,7 @@
                 e à nutrição. Este programa exclusivo oferece 60 dias de consultoria de treino e dieta,
                 proporcionando resultados reais em tempo recorde.
             </p> <br>
-            <p class="p_p_blackfit" id="p_p_blackfittwo">Combinando a expertise de um nutricionista e um personal trainer altamente qualificasdos, o Black Fit é mais do que apenas
+            <p class="p_p_blackfit" id="p_p_blackfittwo">Combinando a expertise de um nutricionista e um personal trainer altamente qualificados, o Black Fit é mais do que apenas
                 um programa - é uma experiência de transformação completa. Nossos especialistas irão guia-lo a cada passo do caminho, adaptando treinos e dietas
                 para suas necessidades exclusivas.</p></div>
         </div>
@@ -212,5 +228,7 @@
     </div>
 </footer>
 </main> 
+
+<script src="scripttion.js"></script>
 </body>
 </html>

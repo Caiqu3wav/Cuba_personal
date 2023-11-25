@@ -13,45 +13,47 @@
 }
 
 body{
-    background-image: url(img/blackfitgreen2.jpg);
+    background-image: url(img/img2/1bgInShot_20231117_181853293.jpg);
     padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
-h1{
-    text-align: center;
-    color: rgb(59, 243, 59);
-}
-
-form{
+.center_pay_bf{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    justify-content: center;
     width: 500px;
-    margin: 0 auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
 }
+
+.center_pay_bf p, label{
+ color: rgb(30, 233, 226);
+ font-weight: bold;
+}
+
+.cuba_logo_pay_bf{
+    align-self: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(29, 171, 29);
+}
+
 
 label{
     font-weight: bold;
     margin-bottom: 5px;
-    color: aliceblue;
 }
 
-input, textarea{
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #e30000;
-    border-radius: 5px;
-    font-size: 1.1rem;   
+.pix_pay_bf{
+    background-color: rgb(100, 100, 42, 0.6);
+    margin-top: 20px;
 }
 
-button{
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2465d4;
-    cursor: pointer;
-    transition: 0.7s;
-}
-button:hover{
-background-color: rgb(29, 171, 29);
+.pix_pay_bf button{
+   cursor: pointer;
 }

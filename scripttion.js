@@ -1,13 +1,12 @@
 function myFunction() {
-    var x =
-    document.getElementById("myLinks_bf");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
+  var x =
+  document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
-
+}
   
 const buttonBuy = document.getElementById("button_buy")
 const modal = document.querySelector("dialog")
@@ -31,8 +30,6 @@ function redirectToPaymentPage(plan) {
     case 'consultoria_cuba': 
     window.location.href = 'formulario300.html';
     break;
-    case 'nutricionista':
-      window.location.href = 'formularioblackfit.html'
   case 'blackfit': 
   window.location.href = 'formularioblackfit.html';
       break;

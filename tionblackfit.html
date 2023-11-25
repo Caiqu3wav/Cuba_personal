@@ -8,24 +8,35 @@
     <link rel="stylesheet" href="styletionblackfit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <script src="https://kit.fontawesome.com/58d0538598.js" crossorigin="anonymous"></script>
     <script src="tionblackfit.js" defer></script>
     <meta name="description" content="BlackFit 60: Nutrição e Treinamento Personalizado de Alta Performance
     Transforme-se com nosso programa personalizado de nutrição e treinamento. Nutricionista e personal trainer à sua disposição. Alcance seus objetivos agora!">
 </head>
 <body>
-    <header>
-        <nav>
-                <h1 class="blackfit_logo_header">BLACKFIT <br> <span style="color: rgb(195, 187, 187);">60</span></h1>
-                <div class="navbar">             
+    <main>
+    <div class="mobile-container_bf">
+        <div class="topnav_bf">
+        <div class="nav_bf">
+                <h1 class="active_bf">BLACKFIT <br> <span style="color: rgb(195, 187, 187);">60</span></h1>
+                <div id="navbar_links_bf">                    
                     <a href="#home">Home</a>
                     <a href="#detalhes">Detalhes</a>
                     <a href="#sobre">Sobre</a>
                     <a href="#resultado">Resultados</a>
                     <a href="#contatos">Final/Contatos</a>
-            </div>
-        </nav>
-    </header>
-    <main>
+            </div></div>
+            <div id="myLinks_bf">
+                <a href="#home">Home</a>
+                    <a href="#detalhes">Detalhes</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#resultado">Resultados</a>
+                    <a href="#contatos">Final/Contatos</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon_bf" onclick="myFunction()">  
+                        <i class="fa-solid fa-bars" style="color: #000000;"></i></a>        
+                        </div>
+                    </div>
         <section class="blackfit1">
             <div class="blackfit_container_1">
                 <img src="img/cuba_logo_righter.png" width="400px" height="300px" alt="cuba_logo">
@@ -136,7 +147,17 @@
                 <div class="p_section2_container_two">
                     <p>Apenas R$ 299,99/Mês</p>
                 </div>
-                <a href=""><button>ADQUIRA JÁ</button></a>
+                <button id="button_buy">ADQUIRA JÁ</button>
+                <dialog id="modal">
+                    <h2>QUAL PLANO VOCÊ DESEJA?</h2>
+                    <select name="" id="planOptions">
+                        <option value="consultoria_cuba">Consultoria Cuba</option>
+                        <option value="nutricionista">Nutricionista</option>
+                        <option value="blackfit">Blackfit Nutrição e Treinamento</option>
+                    </select>
+                    <button id="button_buy_modal" onclick="showPaymentForm()">COMPRAR</button>
+                <button id="btn_close_modal">Fechar</button>
+                </dialog>
             </div>
         </section>
 
@@ -203,6 +224,11 @@
                 </div>
 
             </div>
+            <div class="blackfit_prices_titles">
+                <p>NUTRICIONISTA</p>
+                <p>PERSONAL</p>
+                <p>BLACKFIT</p>
+            </div>
             <div class="blackfit_prices">
                 <p class="blackfit_price_itens" id="blackfit_price_one">R$ 250,00/mês</p>
                 <p class="blackfit_price_itens" id="blackfit_price_two">R$ 200,00/mês</p>
@@ -235,43 +261,19 @@
             <div class="section_funcionamento_container_h1">Como vai funcionar?</div>
 
             <div class="funcionamento_text_container">
-                <p>São 6 passos para 60 dias de muito progresso, vamos lá? Sabemos o quão importante é
-                    cuidar da sua saúde e alcançar seus objetivos de forma personalizada e eficaz. É pra isso que
-                    estamos aqui.
+                <p>Um programa de 60 dias para progresso personalizado em saúde e fitness:
                     <br>
-                    Passo 1: Pré Consulta e Agendamento <br>
-                    Após fechar seu programa, tudo começará com o envio do formulário pré-consulta e o agendamento de
-                    sua consulta com o Nutricionista.
-                    Nesse primeiro encontro em vídeo chamada, estaremos focando em entender a sua história, seus
-                    objetivos, suas preferências, sua condição
-                    clínica, possíveis desafios e restrições, sua rotina, hábitos alimentares e seu histórico de
-                    treinamento. Queremos conhecer você a fundo, para garantir que o nosso plano seja totalmente
-                    alinhado com nossas necessidades.
+                    1. Pré Consulta e Agendamento: Envio de formulário pré-consulta e agendamento para consulta com o nutricionista, focado em compreender a história, objetivos e condições do cliente.
                     <br>
-                    Passo 2: Análise detalhada
-                    Após a consulta, criaremos um grupo no WhatsApp, no qual você, o personal trainer e o
-                    nutricionista estarão presentes. Aqui o personal trainer irá analisar com o seu físico através de
-                    fotos afim
-                    de identificar possíveis desalinhamentos posturais. Este é um passo crucial para proporcionar
-                    a melhor experiência possível
+                    2. Análise Detalhada: Criação de um grupo no WhatsApp para cliente, personal trainer e nutricionista. O personal trainer analisa fotos para identificar desalinhamentos posturais.
                     <br>
-                    Passo 3: Plano alimentar sob medida
-                    Dentro de até 48 horas após a consulta com o nutricionista, você receberá o seu plano
-                    alimentar 100% personalizado, perfeitamente alinhado com o seu corpo e o seu nível de treinamento.
-                    Afinal, a alimentação
-                    é fundamental para alcançar os seus objetivos.
+                    3. Plano Alimentar Personalizado: Recebimento, em até 48 horas, de um plano alimentar 100% personalizado alinhado com o corpo e nível de treinamento do cliente.
                     <br>
-                    Passo 4: Treinamento eficiente
-                    O personal trainer irá criar um programa de treinamento específico para você, levando em
-                    conta o seu objetivo, as necessidades do seu corpo e o seu nível de treinamento atual. Seu
-                    treino estará disponível através de um aplicativo, proporcionando facilidade e praticidade para
-                    você.
+                    4. Treinamento Eficiente: O personal trainer cria um programa específico, disponibilizado através de um aplicativo para facilidade de acesso.
                     <br>
-                    Passo 5: Suporte total
-                    Nossa consultoria é 100% online já foi validada por milhares de pessoas em todo o mundo.
-                    Estaremos sempre disponíveis pra vocÊ no WhatsApp para resolver qualquer dúvida ou dificuldades que
-                    você
-                    possa encontrar durante seus exercícios ou em relação à sua alimentação.
+                    5. Suporte Total: Consultoria online validada, com suporte constante via WhatsApp para esclarecer dúvidas ou dificuldades durante exercícios ou alimentação.
+                    <br>
+                    6. Acompanhamento e Avaliação: Implementação de avaliações periódicas, ajustes no plano conforme necessário, motivação e feedback contínuos para garantir progresso consistente.
                 </p>
             </div>
         </section>
