@@ -36,6 +36,7 @@ function redirectToPaymentPage(plan) {
   }
 }
 
+
   function showPaymentForm(){
     const selectedPlan = planOptions.value;
 
