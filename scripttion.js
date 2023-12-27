@@ -8,16 +8,18 @@ function myFunction() {
   }
 }
   
-const buttonBuy = document.getElementById("button_buy")
-const modal = document.querySelector("dialog")
-const buttonClose = document.getElementById("btn_close_modal")
 
-buttonBuy.onclick = function () {
-  modal.show()
-}
 
-buttonClose.onclick = function () {
-  modal.close()
+function mostrarDialog(){
+  var meuDialog = document.getElementById('modal');
+  meuDialog.style.visibility = 'visible';
+  meuDialog.showModal();
+
+  var fecharDialog = document.getElementById('btn_close_modal');
+  fecharDialog.addEventListener('click', function(){
+    meuDialog.style.visibility = 'hidden';
+    meuDialog.close();
+  })
 }
 
 const buyPopup = document.getElementById('modal');
@@ -28,7 +30,7 @@ function redirectToPaymentPage(plan) {
 
   switch (plan) {
     case 'consultoria_cuba': 
-    window.location.href = 'formulario300.html';
+    window.location.href = 'paynow.html';
     break;
   case 'blackfit': 
   window.location.href = 'formularioblackfit.html';

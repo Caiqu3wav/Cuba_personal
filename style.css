@@ -25,7 +25,7 @@ background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(10, 10, 227, 0.5));
 
 dialog {
   position: fixed;
-  background: rgb(89, 80, 80, 0.6);
+  background: rgba(92, 7, 238, 0.9);
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -35,7 +35,24 @@ dialog {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: opacity 1.7s ease-in-out;
+  transition: opacity 1.3s ease-in-out;
+}
+.popup_div h2{
+  color: red;
+  font-weight: bold;
+}
+.popup_div button{
+  background-color: rgb(84, 250, 72);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 70%;
+}
+#btn_close_modal{
+  background-color: rgb(79, 167, 254);
+  color: white;
+  border-radius: 20px;
+  width: 70%;
 }
 dialog[open] {
   opacity: 1;
@@ -43,6 +60,7 @@ dialog[open] {
 
 .popup_div{
 display: flex;
+align-items: center;
 text-align: center;
 align-self: center;
 width: 200px;
@@ -553,6 +571,11 @@ background: linear-gradient(rgb(49, 47, 118), rgb(0, 0, 0));
 height: 200px;
 display:flex;
     justify-content: center;
+    
+  }
+
+  footer p, h3{
+    color: white;
   }
 
 .footer_container{
@@ -910,6 +933,12 @@ width: 280px;
  }
 }
 
+@media screen and (max-width: 544px){
+dialog {
+    width: 70%;
+}
+}
+
 @media (max-width: 524px){
   .text_about_personal{
     font-size: 13px;
@@ -1140,6 +1169,10 @@ width: 280px;
     @media (max-width: 313px){
     .overlay_personal_about img{
       height: 140px;
+    }
+
+    .popup_div{
+      width: 150px;
     }
 
     .overlay_cf{
